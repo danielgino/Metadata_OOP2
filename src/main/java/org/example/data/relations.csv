@@ -1,0 +1,10 @@
+﻿From,Relation,To,RelationType
+Create New Customer,flows to,Get Customer Information,Association
+Get Customer Information,flows to,Validate Customer Information,Association
+Validate Customer Information,flows to,Store Customer,Association
+Get Customer Information,uses,Interface 1,Association
+Validate Customer Information,uses,Interface 2,Association
+Store Customer,uses,Interface 3,Association
+Interface 1,connects to,Customer 1,Grouping
+Interface 2,connects to,Customer 2,Grouping
+Interface 3,connects to,Customer 1,Grouping
